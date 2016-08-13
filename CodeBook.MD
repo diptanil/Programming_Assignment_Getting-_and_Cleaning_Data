@@ -1,6 +1,6 @@
-## This is the codebook for the files.
+# This is the codebook for the files.
 
-###The dataset includes the following files:
+## The dataset includes the following files:
 
 - 'README.txt'
 
@@ -20,10 +20,10 @@
 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-### The initial file contained the following variables
+## The initial file contained the following variables
 
-Feature Selection 
-=================
+### Feature Selection 
+
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -72,7 +72,7 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
-### The analysis that was performed in the data are as follows
+## The analysis that was performed in the data are as follows
 
 * All the files were read into the program.
 * The datas were merged into a single data frame
@@ -81,7 +81,7 @@ angle(): Angle between to vectors.
 * The data was grouped according to subject and activity
 * A summary data frame was created which contains the average of all the grouped data
 
-### The final file contains the following variables
+## The final file contains the following variables
 
 * subject_id - The id of the test subject
 * activity - Contains the name of the activity that the test subjects were performing

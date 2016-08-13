@@ -1,3 +1,7 @@
+# include the relevant libraries
+
+library(dplyr)
+
 # read in all the tables
 
 activitylabel <- read.table("activity_labels.txt")
